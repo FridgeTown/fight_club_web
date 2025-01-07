@@ -1,0 +1,9 @@
+.title {
+  padding-bottom: 0.25rem;
+}
+
+.description {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  color: var(--text-sub-color)
+}

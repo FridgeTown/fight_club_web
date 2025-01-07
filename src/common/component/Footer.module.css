@@ -1,0 +1,15 @@
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}

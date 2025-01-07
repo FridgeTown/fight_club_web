@@ -1,0 +1,4 @@
+.main {
+  margin: 2rem 1rem;
+  min-height: calc(100vh - 4rem);
+}
