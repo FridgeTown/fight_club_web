@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from './DarkmodeButton.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 export default function DarkmodeButton() {
 
@@ -21,7 +23,7 @@ export default function DarkmodeButton() {
 
   return (
     <button className={styles.darkmode_btn} onClick={toggleTheme}>
-      {theme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}
+      {theme === "dark" ? <FontAwesomeIcon icon={faSun} /> : <FontAwesomeIcon icon={faMoon} />}
     </button>
   )
 }
