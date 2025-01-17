@@ -1,4 +1,5 @@
 # FightClub Web
+스트리밍 송출용 웹 페이지입니다. 
 ## install
 ```
 ## 설치 (package-lock.json 파일 기반 패키지 의존성 보존)
