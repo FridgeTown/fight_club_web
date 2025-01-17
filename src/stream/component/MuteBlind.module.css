@@ -1,0 +1,21 @@
+.mute_blind {
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  text-align: center;
+  align-content: center; 
+  opacity: 0; 
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  font-size: 2rem;
+  color: rgba(255,255,255,0.6)
+}
+
+.mute_blind:hover {
+  opacity: 1; 
+}
+
+.mute_blind svg {
+  font-size: 4rem;
+}

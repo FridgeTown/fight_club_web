@@ -1,12 +1,12 @@
-
-
 :root {
-  --background-color: rgba(28, 28, 30, 10%);
+  --background-color: #f2f2f2;
   --card-color: #ffffff;
   --text-color: #000000;
   --text-sub-color: #949494;
   --theme-color: rgba(255, 36, 49, 100%);
   --divider-color: rgba(0, 0, 0, 0.1);
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --card-sub-color: #ffffff;
 }
 
 [data-theme="dark"] {
@@ -16,6 +16,7 @@
   --text-sub-color: #949494;
   --theme-color: rgba(255, 36, 49, 100%);
   --divider-color: rgba(255,255,255,0.22);
+  --card-sub-color: #454545;
 }
 
 * {
@@ -31,24 +32,9 @@ body {
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
   font-size: 16px;
-}
 
-/* 모바일 스타일 */
-@media (max-width: 768px) {
-  .mobile {
-    display: block;
-  }
-  .desktop {
-    display: none;
-  }
-}
-
-/* 데스크톱 및 태블릿 스타일 */
-@media (min-width: 769px) {
-  .mobile {
-    display: none;
-  }
-  .desktop {
-    display: block;
-  }
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 }

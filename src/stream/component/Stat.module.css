@@ -1,0 +1,26 @@
+.statItem {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  width: 1.75rem;
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+  width: 4rem;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 14px;
+  color: var(--text-sub-color);
+}

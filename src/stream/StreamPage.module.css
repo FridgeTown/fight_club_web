@@ -1,0 +1,33 @@
+.waiting {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1.5rem;
+  background: var(--card-color);
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+}
+
+.wrapper svg {
+  color: var(--theme-color);
+}
+
+.wrapper > div{
+  padding-top: 1rem;
+}
+
+.wrapper > div:first-child {
+  padding-top: 0rem;
+}
